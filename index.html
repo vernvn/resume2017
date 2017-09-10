@@ -1,0 +1,1889 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+
+<title>vernvn</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="description" content="FlexyCodes - FlexyCard vCard Template. Creating my personal page!"/>
+<!-- CSS | bootstrap -->
+<!-- Credits: http://getbootstrap.com/ -->
+<link  rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<!-- CSS | font-awesome -->
+<!-- Credits: http://fortawesome.github.io/Font-Awesome/icons/ -->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<!-- CSS | animate -->
+<!-- Credits: http://daneden.github.io/animate.css/ -->
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+<!-- CSS | Normalize -->
+<!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
+<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+<!-- CSS | Colors -->
+<link rel="stylesheet" type="text/css" href="css/colors/DarkBlue.css" id="colors-style" />
+<link rel="stylesheet" type="text/css" href="css/switcher.css" />
+<!-- CSS | Style -->
+<!-- Credits: http://themeforest.net/user/FlexyCodes -->
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<!-- CSS | prettyPhoto -->
+<!-- Credits: http://www.no-margin-for-errors.com/ -->
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css"/>
+<!-- CSS | Google Fonts -->
+<!-- <link href='http://fonts.useso.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> -->
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">
+<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="css/icons/font-awesome-ie7.min.css"/>
+<![endif]-->
+
+<style>
+@media only screen and (max-width : 991px){
+	.resp-vtabs .resp-tabs-container {
+		margin-left: 13px;
+	}
+}
+
+@media only screen and (min-width : 800px) and (max-width : 991px){
+	.resp-vtabs .resp-tabs-container {
+		margin-left: 13px;
+		width:89%;
+	}
+}
+</style>
+</head>
+<body>
+<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Laoding 页面 -->
+<div id="preloader">
+	<div id="spinner"></div>
+</div>
+
+<!-- .幻灯片 -->
+<ul class="cb-slideshow" id="cb_slideshow" style="display:none">
+	<li><span>Image 01</span><div></div></li>
+	<li><span>Image 02</span><div></div></li>
+	<li><span>Image 03</span><div></div></li>
+	<li><span>Image 04</span><div></div></li>
+	<li><span>Image 05</span><div></div></li>
+	<li><span>Image 06</span><div></div></li>
+</ul>
+<!-- End .幻灯片 -->
+
+<!-- .wrapper -->
+<div class="wrapper">
+	<!--- .Content -->
+	<section class="tab-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-3 widget-profil">
+							<div class="row">
+								<!-- 轮廓图片 -->
+								<div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
+									<div class="image-holder one" id="pic_prof_1" style="display:block">
+										<img class="head-image down-left circle" src="images/img/downleft.jpg" width="150" height="150" alt="" /> 
+									</div>
+									<!-- 默认轮廓图片样式 -->
+									<div class="circle-img" id="pic_prof_2" style="display:none"></div>
+								</div>
+								<!-- End 轮廓图片 -->
+								<div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+									<!-- 简介信息 -->
+									<div id="profile_info">
+										<h1 id="name" class="transition-02">李然</h1>
+										<h4 class="line">Front - End &amp; Back - End</h4>
+										<h6><span class="fa fa-map-marker"></span> BeiJing , ChangPing</h6>
+									</div>
+									<!-- End 简介信息 -->
+
+									<!-- 简介描述 -->
+									<div id="profile_desc">
+										<p>
+											就读于燕山大学里仁学院，电子信息工程专业，工学学士学位。2.5年互联产品开发经验。
+										</p>
+										<p>
+											<a href="javascript:;" target="_blank" title=""></a><a href="javascript:;" title="" target="_blank"></a>
+										</p>
+									</div>
+									<!-- End 简介描述 -->
+
+									<!-- 姓名 -->
+									<div id="profile_social">
+										<h6>我的交流圈</h6>
+										<a href="#"><i class="fa fa-facebook"></i></a>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<a href="#"><i class="fa fa-linkedin"></i></a>
+										<a href="#"><i class="fa fa fa-dribbble"></i></a>
+										<a href="#"><i class="fa fa-foursquare"></i></a>
+										<div class="clear"></div>
+									</div>
+									<!-- End 姓名 -->
+								</div>
+							</div>
+						</div>
+						<!-- flexy_内容 -->
+						<div class="col-md-9 flexy_content" style="padding-left: 0;padding-right: 0;">
+							<!-- 垂直选项卡菜单 -->
+							<div id="verticalTab">
+								<!-- .标签列表 -->
+								<ul class="resp-tabs-list">
+									<li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile">
+										<span class="tite-list">简介</span>
+										<i class="fa fa-user icon_menu icon_menu_active"></i>
+									</li>
+									<li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume">
+										<span class="tite-list">我的简历</span>
+										<i class="fa fa-tasks icon_menu"></i>
+									</li>
+									<li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio">
+										<span class="tite-list">文件</span>
+										<i class="fa fa-briefcase icon_menu"></i>
+									</li>
+									<li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog">
+										<span class="tite-list">博客</span>
+										<i class="fa fa-bullhorn icon_menu"></i>
+									</li>
+									<li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;">
+										<span class="tite-list">联系</span>
+										<i class="fa fa-envelope icon_menu"></i>
+									</li>
+									<a href="#" id="print"><i class="fa fa-print icon_print"></i> </a>
+									<a href="#" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
+								</ul>
+								<!-- End .标签列表 -->
+
+								<!-- 标签容器 -->
+								<div class="resp-tabs-container">
+									<!-- 我的简介 -->
+									<div id="profile" class="content_2">
+										<!-- .title -->
+										<h1 class="h-bloc">我的简介</h1>
+										<div class="row top-p">
+											<div class="col-md-6 profile-l">
+												<!--About me-->
+												<div class="title_content">
+													<div class="text_content">李然</div>
+													<div class="clear"></div>
+												</div>
+   												<ul class="about">
+													<li>
+														<i class="glyphicon glyphicon-user"></i>
+														<label>Name</label>
+														<span class="value">李然</span>
+														<div class="clear"></div>
+													</li>
+													<li>
+														<i class="glyphicon glyphicon-calendar"></i>
+														<label>Birthday</label>
+														<span class="value">Aug 1, 1993</span>
+														<div class="clear"></div>
+													</li>
+													<li>
+														<i class="glyphicon glyphicon-map-marker"></i>
+														<label>Adress</label>
+														<span class="value">北京 , 昌平区</span>
+														<div class="clear"></div>
+													</li>
+													<li>
+														<i class="glyphicon glyphicon-envelope"></i>
+														<label>Email</label>
+														<span class="value">vernvn@hotmail.com</span>
+														<div class="clear"></div>
+													</li>
+													<li>
+														<i class="glyphicon glyphicon-phone"></i>
+														<label>Phone</label>
+														<span class="value">+86 139 3030 6924</span>
+														<div class="clear"></div>
+													</li>
+													<li>
+														<i class="glyphicon glyphicon-globe"></i>
+														<label>Website</label>
+														<span class="value"><a href="#" target="_blank">http://vernvn.github.io</a></span>
+														<div class="clear"></div>
+													</li>
+												</ul>
+												<p style="margin-bottom:20px">
+													<i class="fa fa-quote-left"></i>
+													从事前端开发， 从学习到工作一直从事我热爱的IT行业，每每看到通过努力开发出来的作品都会令我激动不已，只要心中能够永远执着远大的理想，且有不达目的绝不终止的意愿，便能产生惊人的力量。个人格言：需求万变，努力不变！
+												</p>
+												<p style="margin-bottom:20px">
+													<i class="fa fa-quote-left"></i>
+													主修课程：计算机网络 数字信号处理  电磁场与微波技术  高频电子线路 信号与系统 单片机原理及应用 图像通信 天线技术  移动通信  计算机网络 c语言 面向对象程序设计  大学英语等
+												</p>
+											</div>
+											<!-- End left-wrap -->
+											<div class="col-md-6 profile-r">
+												<div class="cycle-slideshow">
+													<img src="images/img-profile/about_1.jpg" alt="" />
+													<img src="images/img-profile/about_2.png" alt="" />
+													<img src="images/img-profile/about_3.png" alt="" />
+												</div>
+											</div>
+										</div>
+										<div class="clear"></div>
+										<div class="row" id="services">
+											<div class="col-md-12">
+												<div class="title_content">
+													<div class="text_content">便捷查询</div>
+													<div class="clear"></div>
+												</div>
+												<div class="col-md-4 pack-service">
+													<div class="service">
+														<div class="service-icon"><i class="fa fa-tag"></i></div>
+														<div class="service-detail">
+															<h6>技术备忘录</h6>
+															<p>技术备忘录，以方便随时查询。</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 pack-service">
+													<div class="service">
+														<div class="service-icon"><i class="fa fa-cogs"></i></div>
+														<div class="service-detail">
+															<h6>项目备忘</h6>
+															<p>项目备忘录，以方便随时查询。</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-4 pack-service">
+													<div class="service">
+														<div class="service-icon"><i class="fa fa-arrows-alt"></i></div>
+														<div class="service-detail">
+															<h6>分享文章</h6>
+															<p>个人收藏、分享的相关互联网技术类文章。</p>
+														</div>
+													</div>
+												</div>
+											 </div>
+										</div>
+										<!-- End Services -->
+										<div class="copyrights">Collect from <a href="javascript:;" > </a></div>
+										<div class="clear"></div>
+										<div class="border-list"></div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="bottom-p">
+													<div class="title_content">
+														<div class="text_content">便捷查询列表</div>
+														<div class="clear"></div>
+													</div>
+													<div class="panel-group" id="accordion">
+														<div class="panel panel-default">
+															<div class="panel-heading">
+																<h4 class="panel-title">
+																	<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapse_tabs">
+																		技术备忘录
+																		<i class="glyphicon glyphicon-chevron-up" style="float: right;font-size: 13px;"></i>
+																	</a>
+																</h4>
+															</div>
+															<div id="collapseOne" class="panel-collapse collapse in">
+																<div class="panel-body">
+																	<i class="fa fa-quote-left"></i>  内容待完善。
+																</div>
+															</div>
+														</div>
+														<div class="panel panel-default">
+															<div class="panel-heading">
+																<h4 class="panel-title">
+																	<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapse_tabs">
+																		项目备忘
+																		<i class="glyphicon glyphicon-chevron-down" style="float: right;font-size: 13px;"></i>
+																	</a>
+																</h4>
+															</div>
+															<div id="collapseTwo" class="panel-collapse collapse">
+																<div class="panel-body">
+																	<i class="fa fa-quote-left"></i>  内容待完善。
+																</div>
+															</div>
+														</div>
+														<div class="panel panel-default">
+															<div class="panel-heading">
+																<h4 class="panel-title">
+																	<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapse_tabs">
+																		分享文章
+																		<i class="glyphicon glyphicon-chevron-down" style="float: right;font-size: 13px;"></i>
+																	</a>
+																</h4>
+															</div>
+															<div id="collapseThree" class="panel-collapse collapse">
+																<div class="panel-body">
+																	<i class="fa fa-quote-left"></i>  内容待完善。
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="clear"></div>
+									</div>
+									<!-- End .我的简介 -->
+
+									<!-- .个人信息 -->
+									<div id="resume" class="content_2">
+										<!-- .title -->
+										<h1 class="h-bloc">个人信息</h1>
+										<div class="row">
+											<!-- .resume-right -->
+											<div class="col-md-6">
+												<!-- .title_content -->
+												<div class="title_content" style="float: none;">
+													<div class="text_content">Programming Skills</div>
+													<div class="clear"></div>
+												</div>
+												<!-- /.title_content -->
+												<div class="skills">
+													<!-- .skillbar -->
+													<!-- <div class="skillbar clearfix" data-percent="65%">
+														<div class="skillbar-title"><span>JAVA</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">65%</div>
+													</div> -->
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="85%">
+														<div class="skillbar-title"><span>JavaScript</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">85%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="95%">
+														<div class="skillbar-title"><span>HTML5 &amp; CSS3</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">95%</div>
+													</div>
+													<!-- /.skillbar -->
+												</div>
+
+												<!-- .title_content -->
+												<div class="title_content" style="float: none;">
+													<div class="text_content">Model View Controller</div>
+													<div class="clear"></div>
+												</div>
+												<!-- /.title_content -->
+
+												<div class="skills">
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="90%">
+														<div class="skillbar-title"><span>JQuery</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">90%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="85%">
+														<div class="skillbar-title"><span>Bootstrap</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">85%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="85%">
+														<div class="skillbar-title"><span>Angular.JS & Angular2+</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">85%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="60%">
+														<div class="skillbar-title"><span>React</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">60%</div>
+													</div>
+													<!-- /.skillbar -->
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="70%">
+														<div class="skillbar-title"><span>Node.JS</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">70%</div>
+													</div>
+													<!-- /.skillbar -->
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="90%">
+														<div class="skillbar-title"><span>Ajax</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">90%</div>
+													</div>
+													<!-- /.skillbar -->
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="70%">
+														<div class="skillbar-title"><span>Vue.JS</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">70%</div>
+													</div>
+													<!-- /.skillbar -->
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="75%">
+														<div class="skillbar-title"><span>Sass</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">75%</div>
+													</div>
+													<!-- /.skillbar -->
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="75%">
+														<div class="skillbar-title"><span>Less</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">75%</div>
+													</div>
+													<!-- /.skillbar -->
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="80%">
+														<div class="skillbar-title"><span>Gulp</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">80%</div>
+													</div>
+
+													<div class="skillbar clearfix" data-percent="80%">
+														<div class="skillbar-title"><span>Gulp</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">80%</div>
+													</div>
+
+													<div class="skillbar clearfix" data-percent="80%">
+														<div class="skillbar-title"><span>Webpack</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">80%</div>
+													</div>
+													<!-- /.skillbar -->
+												</div>
+												<!-- .title_content -->
+												<div class="title_content" style="float: none;">
+													<div class="text_content">Designs skills</div>
+													<div class="clear"></div>
+												</div>
+												<!-- /.title_content -->
+
+												<div class="skills">
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="55%">
+														<div class="skillbar-title"><span>Photoshop</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">55%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<!-- <div class="skillbar clearfix" data-percent="55%">
+														<div class="skillbar-title"><span>Illustrateur</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">55%</div>
+													</div> -->
+													<!-- /.skillbar -->
+												</div>
+												<!-- .title_content -->
+												<div class="title_content" style="float: none;">
+													<div class="text_content">Office Skills</div>
+													<div class="clear"></div>
+												</div>
+												<!-- /.title_content -->
+												<div class="skills">
+												<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="90%">
+														<div class="skillbar-title"><span>GitHub</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">90%</div>
+													</div>
+													<!-- /.skillbar -->
+													<div class="skillbar clearfix" data-percent="70%">
+														<div class="skillbar-title"><span>SVN</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">70%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="75%">
+														<div class="skillbar-title"><span>MS Excel</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">75%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix " data-percent="75%">
+														<div class="skillbar-title"><span>MS Word</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">75%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix " data-percent="70%">
+														<div class="skillbar-title"><span>MS Powerpoint</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">70%</div>
+													</div>
+													<!-- /.skillbar -->
+												</div>
+												<!-- .title_content -->
+												<div class="title_content" style="float: none;">
+													<div class="text_content">Hobbies Skills</div>
+													<div class="clear"></div>
+												</div>
+												<!-- /.title_content -->
+												<div class="skills">
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="60%">
+														<div class="skillbar-title"><span>音乐</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">60%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix " data-percent="65%">
+														<div class="skillbar-title"><span>影视</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">65%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix " data-percent="85%">
+														<div class="skillbar-title"><span>运动</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">85%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix " data-percent="85%">
+														<div class="skillbar-title"><span>读书</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">85%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix " data-percent="70%">
+														<div class="skillbar-title"><span>旅行</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">70%</div>
+													</div>
+													<!-- /.skillbar -->
+												</div>
+
+												<!-- .title_content -->
+												<div class="title_content" style="float: none;">
+													<div class="text_content">Language Skills</div>
+													<div class="clear"></div>
+												</div>
+												<!-- /.title_content -->
+												<div class="skills">
+													<!-- .skillbar -->
+													<div class="skillbar clearfix" data-percent="95%">
+														<div class="skillbar-title"><span>中文</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">95%</div>
+													</div>
+													<!-- /.skillbar -->
+
+													<!-- .skillbar -->
+													<div class="skillbar clearfix " data-percent="70%">
+														<div class="skillbar-title"><span>English</span></div>
+														<div class="skillbar-bar"></div>
+														<div class="skill-bar-percent">70%</div>
+													</div>
+													<!-- /.skillbar -->
+												</div>
+												<!-- .title_content -->
+												<div class="title_content" style="float: none;">
+													<div class="text_content">我的简历</div>
+													<div class="clear"></div>
+												</div>
+												<!-- /.title_content -->
+
+												<!-- .download_resume -->
+												<a class="download" style="margin:0;float: left;" href="#">
+													<span data-hover="下载我的简历"><i class="glyphicon glyphicon-download-alt"></i> 下载我的简历</span>
+												</a>
+												<!-- /.download_resume -->
+											</div>
+											 <!-- /.resume-right -->
+
+											<!-- .resume-left -->
+											<div class="col-md-6 resume-left">
+												<!-- .title_content -->
+												<div class="title_content" style="margin-bottom:5px">
+													<div class="text_content">工作经历</div>
+													<div class="clear"></div>
+												</div>
+												<!-- /.title_content -->
+
+												<!-- .attributes -->
+												<ul class="attributes">
+													<li class="first">
+														<h5>Web 前端开发工程师<span class="duration"><i class="fa fa-calendar color"></i> 2016.7 - 至今</span></h5>
+														<h6><span class="fa fa-briefcase"></span> 北京小车匠信息系统有限公司</h6>
+														<p>负责集团互联网产品或项目的Web前端开发,根据产品需求和UI效果图进行产品或平台的研发，JS逻辑设计与开发、JQuery特效编写以及使用插件实现特效，解决主流浏览器兼容性问题，对网站用户体验性能进行优化，完成产品前端展示效果和交互功能。</p>
+														<br>
+
+
+
+														<p>具体项目概述：</p>
+														<h6><span class="glyphicon glyphicon-th"></span> 交通部维修工程师考核</h6>
+														<p>项目描述: 国家部委与公司签署合作协议，需要开发出一套用于对全国维修工程师职称考核的系统，本人负责其中精密仪器测量及电气测量的开发工作。</p>
+														<p>项目职责: 进行精密仪器测量与电气测量的开发、调试及维护工作。</p>
+														<p>（1）根据项目需求、时间节点等因素进行项目的前期沟通工作，团队共同开发，本人主动承接精密仪器测量与电气测量两个领域的开发工作；</p>
+														<p>（2）项目的开发阶段，处理兼容性，优化性能，上传版本库，进行版本管理;</p>
+														<p>（3）进行项目测试阶段，修改项目出现的bug;</p>
+														<p>（4）提交策划人员验收，进行验收微量修改，随后进行项目后期的维护工作。</p>
+
+
+														<h6><span class="glyphicon glyphicon-th"></span> 内部演示平台开发</h6>
+														<p>项目描述: 经公司决定，需要内部制作一个平台供销售人员进行项目投标演示与线上测试，本人独立开发，并制定针对不同客户的三套UI。</p>
+														<p>项目职责: 独立完成内部演示平台的开发、调试及维护工作。</p>
+														<p>（1）根据项目需求、时间节点等因素进行项目前期的沟通工作，由于是独立开发，本人采用了angular1+ gulp + sass 开发框架及工具；</p>
+														<p>（2）项目开发阶段，处理兼容，性能优化，上传版本库；</p>
+														<p>（3）与公司后台人员确定接口文档，进行接口的调试与数据的校验，调试完毕后进行测试环节；</p>
+														<p>（4）进行到项目测试阶段，修复提出的bug，提交技术总监验收，并进行项目后期的维护。</p>
+
+
+														<h6><span class="glyphicon glyphicon-th"></span> 各大车企职校单页面应用课程开发</h6>
+														<p>项目描述: 公司与大众、丰田、宝骏等全国各大车企以及全国数十所高校进行合作，开发符合他们要求的单页面应用课程；课程其中包含万用表诊断仪等维修工具的使用，以及课程的考核等。</p>
+														<p>项目职责: 独立完成各大车系的开发、调试及维护工作；</p>
+														<p>（1）根据项目需求、时间节点等因素进行项目前期的沟通工作，由于是独立开发，考虑到单页面应用，为了组件化复用性，本人采用了angular2+ webpack + typeScript + sass + yarn + vsCode开发框架及工具;</p>
+														<p>（2）项目开发阶段，进行项目的处理兼容，性能优化，上传版本库;</p>
+														<p>（3）与仿真模型人员进行大量数据的通讯，进行接口的调试与数据的校验，调试完毕后进行测试环节；</p>
+														<p>（4）进行到项目测试阶段，修复提出的bug，提交策划人员验收，并进行项目后期的维护, 并决定制作
+															出一套可视化课件自动生成工具，由于工期问题，项目初期，可视化暂时未能实现，配置文件
+															暂时为手动填充，成功制作出后续的课程应用。</p>
+
+														
+														<h6><span class="glyphicon glyphicon-th"></span> 教师端平台开发</h6>
+														<p>项目描述: 公司承接平台开发任务，与某一高校进行合作，为其开发一套多方向、多功能的教师端平台，方便学生管理与课程传授。</p>
+														<p>项目职责: 独立完成教师端平台的开发、调试及维护工作</p>
+														<p>（1）根据项目需求、时间节点等因素进行项目前期的沟通工作，采用了angular4+ webpack + typeScript + rxjs + sass + yarn + vsCode开发框架及工具</p>
+														<p>（2）项目开发阶段，由于设计人员更替，设计人员只完成一级模块的图纸</p>
+														<p>（3）根据设计图纸，进行项目架构的搭建基本完成，只待低级模块内容填充，一级模块构建完成，实现了应用的高度组件化；</p>
+														<p>（4）项目由于设计原因，停滞。</p>
+
+
+
+													<li>
+														<h5>Web 前端开发工程师<span class="duration"><i class="fa fa-calendar color"></i> 2015 - 2016</span></h5>
+														<h6><span class="fa fa-briefcase"></span> 秦皇岛市易讯科技开发有限公司</h6>
+														<p>负责公司项目的前端修改调试和开发工作，精确的将网站设计图重构成HTML 页面。从PS切图到HTML和CSS标准网页制作及主流浏览器兼容问题的解决，并与后台紧密配合，完成产品展示效果和交互功能。</p>
+													</li>
+												</ul>
+												<!-- /.attributes -->
+												<br>
+												<!-- .title_content -->
+												<div class="title_content">
+													<div class="text_content">教育经历</div>
+													<div class="clear"></div>
+												</div>
+												<!-- /.title_content -->
+
+												<!-- .attributes -->
+												<ul class="attributes">
+													<li class="first">
+														<h5>电子信息工程专业 <span class="duration"><i class="fa fa-calendar color"></i> 2012 - 2016</span></h5>
+														<h6><span class="fa fa-book"></span> 燕山大学里仁学院 （本科）</h6>
+														<p>英语水平： 四级</p>
+													</li>
+												</ul>
+												<!-- /.attributes -->
+												<br>
+												<!-- .title_content -->
+
+												<!-- /.title_content -->
+
+												<!-- .attributes -->
+												<!-- /.attributes -->
+												<br>
+											</div>
+											<!-- /.resume-left -->
+										</div>
+
+										<div style="clear: both"></div>
+										<!-- client reference -->
+										<div class="row">
+											<div class="col-md-12">
+												<div class="reference clearfix">
+													 <!-- .title_content -->
+													<div class="title_content" style="margin-bottom:5px">
+														<div class="text_content">朋友的评价</div>
+														<div class="clear"></div>
+													</div>
+													<!-- /.title_content -->
+													<ul>
+														<li class="clearfix">
+															<img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
+															<p>“我的朋友都是技术宅，非常懒，还没有来评价。”</p>
+															<span>匿名</span>
+														</li>
+														<li class="clearfix">
+															<img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
+															<p>“我的朋友都是技术宅，非常懒，还没有来评价。”</p>
+															<span>匿名</span>
+														</li>
+														<li class="clearfix">
+															<img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
+															<p>“我的朋友都是技术宅，非常懒，还没有来评价。”</p>
+															<span>匿名</span>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div style="clear: both"></div>
+										</div>
+									</div>
+									<!-- End .个人信息 -->
+
+									<!-- .我的作品 -->
+									<div id="portfolio" class="content_2">
+										<!-- .title -->
+										<h1 class="h-bloc">我的作品</h1>
+										<!-- .组合容器 -->
+										<div class="container-portfolio">
+											<!-- #选项卡 -->
+											<ul id="filters" class="clearfix">
+												<li><span class="filter active" data-filter="catWeb catGraphic catMotion logo">全部</span></li>
+												<li><span class="filter" data-filter="catWeb">2016年</span></li>
+												<li><span class="filter" data-filter="catGraphic">2015年</span></li>
+												<li><span class="filter" data-filter="catMotion">2014年</span></li>
+												<li><span class="filter" data-filter="logo">2013年</span></li>
+											</ul>
+											<!-- End #选项卡 -->
+
+											<!-- #组合列表 -->
+											<div id="portfoliolist">
+												<!-- .组合 -->
+												<div class="portfolio catWeb" data-cat="catWeb">
+													<!-- .组合包装 -->
+													<div class="portfolio-wrapper">
+														<a href="http://www.youtube.com/watch?v=c9MnSeYYtYY" rel="portfolio">
+															<img src="images/portfolio/2.jpg" alt="Visual Infography" />
+															<div class="label">
+																<div class="label-text">
+																	<a class="text-title">君德时代投资控股集团</a>
+																	<span class="text-category">2016年</span>
+																</div>
+																<div class="label-bg"></div>
+															</div>
+														</a>
+													</div>
+													<!-- End .组合包装 -->
+												</div>
+												<!-- End .组合 -->
+
+												<!-- .组合 -->
+												<div class="portfolio catWeb" data-cat="catWeb">
+													<!-- .组合包装 -->
+													<div class="portfolio-wrapper">
+														<a href="images/portfolio/3.jpg" rel="portfolio">
+															<img src="images/portfolio/3.jpg" alt="Sonor's Design" />
+															<div class="label">
+																<div class="label-text">
+																	<a class="text-title">君德财富投资管理有限公司</a>
+																	<span class="text-category">2016年</span>
+																</div>
+																<div class="label-bg"></div>
+															</div>
+														</a>
+													</div>
+													<!-- End .组合包装 -->
+												</div>
+												<!-- End .组合 -->
+
+												<!-- .组合 -->
+												<div class="portfolio catMotion" data-cat="catMotion">
+													<!-- .组合包装 -->
+													<div class="portfolio-wrapper">
+														<a href="images/portfolio/4.jpg" rel="portfolio">
+															<img src="images/portfolio/4.jpg" alt="Typography Company" />
+															<div class="label">
+																<div class="label-text">
+																	<a class="text-title">中关村金融信息服务中心</a>
+																	<span class="text-category">2014年</span>
+																</div>
+																<div class="label-bg"></div>
+															</div>
+														</a>
+													</div>
+													<!-- End .组合包装 -->
+												</div>
+												<!-- End .组合 -->
+
+												<!-- .组合 -->
+												<div class="portfolio catWeb" data-cat="catWeb">
+													<!-- .组合包装 -->
+													<div class="portfolio-wrapper">
+														<a href="images/portfolio/5.jpg" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
+															<img src="images/portfolio/5.jpg" alt="Weatherette" />
+															<div class="label">
+																<div class="label-text">
+																	<a class="text-title">君德汇富</a>
+																	<span class="text-category">2016年</span>
+																</div>
+																<div class="label-bg"></div>
+															</div>
+														</a>
+													</div>
+													<!-- End .组合包装 -->
+												</div>
+												<!-- End .组合 -->
+
+												<!-- .组合 -->
+												<div class="portfolio catGraphic" data-cat="catGraphic">
+													<!-- .组合包装 -->
+													<div class="portfolio-wrapper">
+														<a href="images/portfolio/7.jpg" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
+															<img src="images/portfolio/7.jpg" alt="Techlion" />
+															<div class="label">
+																<div class="label-text">
+																	<a class="text-title">爱自驾</a>
+																	<span class="text-category">2015年</span>
+																</div>
+																<div class="label-bg"></div>
+															</div>
+														</a>
+													</div>
+													<!-- End .组合包装 -->
+												</div>
+												<!-- End .组合 -->
+
+												<!-- .组合 -->
+												<div class="portfolio catMotion" data-cat="catMotion">
+													<!-- .组合包装 -->
+													<div class="portfolio-wrapper">
+														<a href="images/portfolio/6.jpg" rel="portfolio">
+															<img src="images/portfolio/6.jpg" alt="BMF" />
+															<div class="label">
+																<div class="label-text">
+																	<a class="text-title">车融资</a>
+																	<span class="text-category">2014年</span>
+																</div>
+																<div class="label-bg"></div>
+															</div>
+														</a>
+													</div>
+													<!-- End .组合包装 -->
+												</div>
+												<!-- End .组合 -->
+
+												<!-- .组合 -->
+												<div class="portfolio catWeb" data-cat="catWeb">
+													<!-- .组合包装 -->
+													<div class="portfolio-wrapper">
+														<a href="images/portfolio/9.jpg" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
+															<img src="images/portfolio/9.jpg" alt="Graph Plotting" />
+															<div class="label">
+																<div class="label-text">
+																	<a class="text-title">国恒保险</a>
+																	<span class="text-category">2016年</span>
+																</div>
+																<div class="label-bg"></div>
+															</div>
+														</a>
+													</div>
+													<!-- End .组合包装 -->
+												</div>
+												<!-- End .组合 -->
+
+												<!-- .组合 -->
+												<div class="portfolio catWeb" data-cat="catWeb">
+													<!-- .组合包装 -->
+													<div class="portfolio-wrapper">
+														<a href="images/portfolio/9.jpg" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
+															<img src="images/portfolio/9.jpg" alt="Graph Plotting" />
+															<div class="label">
+																<div class="label-text">
+																	<a class="text-title">财富360</a>
+																	<span class="text-category">2016年</span>
+																</div>
+																<div class="label-bg"></div>
+															</div>
+														</a>
+													</div>
+													<!-- End .组合包装 -->
+												</div>
+												<!-- End .组合 -->
+
+												<!-- .组合 -->
+												<div class="portfolio logo" data-cat="logo">
+													<!-- .组合包装 -->
+													<div class="portfolio-wrapper">
+														<a href="images/portfolio/12.jpg" rel="portfolio">
+															<img src="images/portfolio/12.jpg" alt="Village Community Church" />
+															<div class="label">
+																<div class="label-text">
+																	<a class="text-title">贺天广告有限公司</a>
+																	<span class="text-category">2013年</span>
+																</div>
+																<div class="label-bg"></div>
+															</div>
+														</a>
+													</div>
+													<!-- End .组合包装 -->
+												</div>
+												<!-- End .组合 -->
+
+												 <!-- .组合 -->
+												<div class="portfolio catWeb" data-cat="catWeb">
+													<!-- .组合包装 -->
+													<div class="portfolio-wrapper">
+														<a href="images/portfolio/9.jpg" title="Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien." rel="portfolio">
+															<img src="images/portfolio/9.jpg" alt="Graph Plotting" />
+															<div class="label">
+																<div class="label-text">
+																	<a class="text-title">恰图投资</a>
+																	<span class="text-category">2016年</span>
+																</div>
+																<div class="label-bg"></div>
+															</div>
+														</a>
+													</div>
+													<!-- End .组合包装 -->
+												</div>
+												<!-- End .组合 -->
+												<div class="clear"></div>
+											</div>
+											<!-- End .组合包装 -->
+										</div>
+										<!-- End .组合容器 -->
+									</div>
+									<!-- End .我的作品 -->
+
+									<!-- .我的博客 -->
+									<div id="blog" class="content_2">
+										<h1 class="h-bloc">我的博客</h1><br>
+										<div class="col-md-12">
+											<div class="row">
+												<!-- Page Blog -->
+												<div class="col-md-12" id="blog_page">
+													<!-- start Page Blog -->
+													<section id="blog-page">
+														<!-- Post 1 -->
+														<article id="post-1" class="blog-article">
+															<div class="col-md-12">
+																<div class="row">
+																	<div class="col-md-12 post_media">
+																		<div class="post-format-icon">
+																			<a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
+																		</div>
+																		<div class="media">
+																			<div class="he-wrap tpl2">
+																				<div id="carousel-1" class="carousel slide" data-ride="carousel">
+																					<ol class="carousel-indicators">
+																						<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+																						<li data-target="#carousel-1" data-slide-to="1"></li>
+																						<li data-target="#carousel-1" data-slide-to="2"></li>
+																					</ol>
+																					<div class="carousel-inner">
+																						<div class="item active">
+																							<img src="images/blog/blog-1.jpg" alt="" />
+																							<div class="carousel-caption">
+																								<h4>博客留言功能暂未开通</h4>
+																								<p>由于服务器供应商原因，博客留言功能暂未开通。</p>
+																							</div>
+																						</div>
+																						<div class="item">
+																							<img src="images/blog/blog-2.jpg" alt="" />
+																							<div class="carousel-caption">
+																								<h4>博客留言功能暂未开通</h4>
+																								<p>由于服务器供应商原因，博客留言功能暂未开通。</p>
+																							</div>
+																						</div>
+																						<div class="item">
+																							<img src="images/blog/blog-3.jpg" alt="" />
+																							<div class="carousel-caption">
+																								<h4>博客留言功能暂未开通</h4>
+																								<p>由于服务器供应商原因，博客留言功能暂未开通。</p>
+																							</div>
+																						</div>
+																					</div>
+																					<a class="left carousel-control" href="#carousel-1" data-slide="prev">
+																						<span class="glyphicon glyphicon-chevron-left"></span>
+																					</a>
+																					<a class="right carousel-control" href="#carousel-1" data-slide="next">
+																						<span class="glyphicon glyphicon-chevron-right"></span>
+																					</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-md-12 post_content">
+																		<div class="content post_format_standart">
+																			<div class="top_c ">
+																				<div class="title_content">
+																					<div class="text_content"><a href="#post-1" class="read_more">博客画廊</a></div>
+																					<div class="clear"></div>
+																				</div>
+																				<ul class="info">
+																					<li><i class="glyphicon glyphicon-comment"></i> 2 评论</li>
+																					<li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
+																					<li><i class="glyphicon glyphicon-user"></i> by 管理员</li>
+																					<li><i class="glyphicon glyphicon-tag"></i> 生活留影</li>
+																				</ul>
+																				<div class="blog-content">
+																					<p><i class="fa fa-quote-left"></i> 更多生活照片等待加入。</p>
+																				</div>
+																			</div>
+																		</div>
+																		<a href="#post-1" class="read_m pull-right">阅读更多 <i class='glyphicon glyphicon-chevron-right'></i></a>
+																	</div>
+																</div>
+															</div>
+														</article>
+														<!-- End Post 1 -->
+														<div class="clear"></div>
+														<!-- Post 2 -->
+														<article id="post-2" class="blog-article">
+															<div class="col-md-12">
+																<div class="row">
+																	<div class="col-md-12 post_media">
+																		<div class="post-format-icon">
+																			<a href="#" class="item-date"><span class="fa fa-pencil"></span></a>
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-md-12 post_content">
+																		<div class="content post_format_standart">
+																			<div class="top_c ">
+																				<div class="title_content">
+																					<div class="text_content"><a href="#post-2" class="read_more">博客文章</a></div>
+																					<div class="clear"></div>
+																				</div>
+																				<ul class="info">
+																					<li><i class="glyphicon glyphicon-comment"></i> 2 评论</li>
+																					<li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
+																					<li><i class="glyphicon glyphicon-user"></i> by 管理员</li>
+																					<li><i class="glyphicon glyphicon-tag"></i> 博客文章</li>
+																				</ul>
+																				<div class="blog-content">
+																					<p><i class="fa fa-quote-left"></i> 更多技术文章等待加入。</p>
+																				</div>
+																			</div>
+																		</div>
+																		<a href="#post-2" class="read_m pull-right">阅读更多 <i class='glyphicon glyphicon-chevron-right'></i></a>
+																	</div>
+																</div>
+															</div>
+														</article>
+														<!-- End Post 2 -->
+														<div class="clear"></div>
+														<!-- Post 3 -->
+														<article id="post-3" class="blog-article">
+															<div class="col-md-12">
+																<div class="row">
+																	<div class="col-md-12 post_media">
+																		<div class="post-format-icon">
+																			<a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
+																		</div>
+																		<div class="media">
+																			<div class="he-wrap tpl2">
+																				<img src="images/blog/blog-4.jpg" class="img-hover" alt="" />
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="col-md-12 post_content">
+																		<div class="content post_format_standart">
+																			<div class="top_c ">
+																				<div class="title_content">
+																					<div class="text_content"><a href="#post-3" class="read_more">博客图片</a></div>
+																					<div class="clear"></div>
+																				</div>
+																				<ul class="info">
+																					<li><i class="glyphicon glyphicon-comment"></i> 2 评论</li>
+																					<li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
+																					<li><i class="glyphicon glyphicon-user"></i> by 管理员</li>
+																					<li><i class="glyphicon glyphicon-tag"></i> 图片</li>
+																				</ul>
+																				<div class="blog-content">
+																					<p><i class="fa fa-quote-left"></i> 更多图片等待加入。</p>
+																				</div>
+																			</div>
+																		</div>
+																		<a href="#post-3" class="read_m pull-right">阅读更多 <i class='glyphicon glyphicon-chevron-right'></i></a>
+																	</div>
+																</div>
+															</div>
+														</article>
+														<!-- End Post 3 -->
+													</section>
+													<!-- End Page Blog -->
+
+													<!-- Page Blog - Post 1 -->
+													<section id="post-1-page" class="content-post" style="display: none">
+														<div class="row inner">
+															<div class="col-md-12" style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;float: left;background: rgba(255, 255, 255, 0.8);padding-bottom: 15px;padding-top: 15px;">
+																<article class="postPage">
+																	<div class="col-md-12 post_media">
+																		<div class="post-format-icon">
+																			<a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
+																		</div>
+																		<div class="media">
+																			<div class="he-wrap tpl2">
+																				<div id="carousel-2" class="carousel slide" data-ride="carousel">
+																					<ol class="carousel-indicators">
+																						<li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+																						<li data-target="#carousel-2" data-slide-to="1"></li>
+																						<li data-target="#carousel-2" data-slide-to="2"></li>
+																					</ol>
+																					<div class="carousel-inner">
+																						<div class="item active">
+																							<img src="images/blog/blog-1.jpg" alt="">
+																							<div class="carousel-caption">
+																								<h4>博客留言功能暂未开通</h4>
+																								<p>由于服务器供应商原因，博客留言功能暂未开通。</p>
+																							</div>
+																						</div>
+																						<div class="item">
+																							<img src="images/blog/blog-2.jpg" alt="">
+																							<div class="carousel-caption">
+																								<h4>博客留言功能暂未开通</h4>
+																								<p>由于服务器供应商原因，博客留言功能暂未开通。</p>
+																							</div>
+																						</div>
+																						<div class="item">
+																							<img src="images/blog/blog-3.jpg" alt="">
+																							<div class="carousel-caption">
+																								<h4>博客留言功能暂未开通</h4>
+																								<p>由于服务器供应商原因，博客留言功能暂未开通。</p>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="title_content">
+																		<div class="text_content">博客画廊</div>
+																		<div class="clear"></div>
+																	</div>
+																	<p class="caps">更多生活照片等待加入。</p>
+
+																	<p>更多生活照片等待加入。</p>
+
+																	<div class="col-md-12 first">
+																		<div class="info">
+																			<div>
+																				<span class="tag">#JavaScript</span>
+																				<span class="tag">#HTML/CSS</span>
+																			</div>
+																			<ul class="info-post">
+																				<li><i class="glyphicon glyphicon-comment"></i> 2 评论</li>
+																				<li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
+																				<li><i class="glyphicon glyphicon-user"></i> by 管理员</li>
+																				<li><i class="glyphicon glyphicon-tag"></i>  JavaScript, HTML/CSS</li>
+																			</ul>
+																		</div>
+																		<div class="clear"></div>
+																		<div class="about_author">
+																			<div class="title_content" style="margin-bottom:10px">
+																				<div class="text_content">STEVE JOBS</div>
+																				<div class="clear"></div>
+																			</div>
+																			<div class="clear"></div>
+																			<div class="prg_content">
+																				<img src="http://placehold.it/100x100" width="100" height="100" alt="img">
+																				<div class="text">
+																					暂无评论。
+																				</div>
+																				<div class="nb_post" style="margin-top: 10px;">
+																					<b id="nb_post"> 15 帖子</b> 作者创建
+																				</div>
+																			</div>
+																			<div class="clear"></div>
+																		</div>
+																		<div class="clear"></div>
+																		<div class="post_comments">
+																			<div class="title_content">
+																				<div class="text_content">7 评论</div>
+																				<div class="clear"></div>
+																			</div>
+																			<div class="clear"></div>
+																			<div class="comments">
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="comment sub">
+																						<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																						<div class="text">
+																							<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																							<div class="date">12, September, 2013</div>
+																							暂无评论。
+																						</div>
+																						<div class="clear"></div>
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+																				<!-- .comments -->
+
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="comment sub">
+																						<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																						<div class="text">
+																							<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																							<div class="date">12, September, 2013</div>
+																						</div>
+																						<div class="clear"></div>
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+
+																				<!-- .comments -->
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="comment sub">
+																						<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																						<div class="text">
+																							<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																							<div class="date">12, September, 2013</div>
+																							暂无评论。
+																						</div>
+																						<div class="clear"></div>
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+																				<!-- .comments -->
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+																				<!-- .comments -->
+																			</div>
+																			<!-- .post_comments -->
+																			<div class="clear"></div>
+																			<div class="comment_form">
+																				<div class="title_content">
+																					<div class="text_content">我的评论</div>
+																					<div class="clear"></div>
+																				</div>
+																				<form method="post" id="comment_form">
+																					<p class="form-group" id="contact-name">
+																						<label for="name">姓名</label>
+																						<input type="text" name="name" class="form-control" id="inputSuccess" placeholder="姓名*...">
+																					</p>
+																					<p class="form-group" id="contact-email">
+																						<label for="email">你的 Email</label>
+																						<input type="text" name="email" class="form-control" id="inputSuccess" placeholder="你的 Email*...">
+																					</p>
+
+																					<p class="form-group" id="contact-message">
+																						<label for="message">内容</label>
+																						<textarea name="message" cols="88" rows="6" class="form-control" id="inputError" placeholder="内容..."></textarea>
+																					</p>
+																					<input type="reset" name="reset" value="清除" class="reset">
+																					<!--<input type="submit" name="submit" value="发表" class="submit">-->
+																					<button class="submit" data-toggle="modal" data-target=".bs-example-modal-sm">发表</button>
+																				</form>
+																				<div class="clear"></div>
+																			</div>
+																		</div>
+																		<div class="col-md-12" style="margin-top: 20px;">
+																			<a href="#post-2" class="readmore" id="pagination"><i class="glyphicon glyphicon-chevron-right"></i></a>
+																			<a href="#" class="readmore disabled" id="pagination"><i class="glyphicon glyphicon-chevron-left"></i></a>
+																			<a href="#blog" class="readmore"><i class="glyphicon glyphicon-chevron-left"></i> 返回列表</a>
+																		</div>
+																		<div class="clear"></div>
+																</article>
+															</div>
+															<div class="clear"></div>
+														</div>
+													</section>
+													<!-- End Page Blog - Post 1 -->
+
+													<!-- Page Blog - Post 2 -->
+													<section id="post-2-page" class="content-post" style="display: none">
+														<div class="row inner">
+															<div class="col-md-12" style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;float: left;background: rgba(255, 255, 255, 0.8);padding-bottom: 15px;padding-top: 15px;">
+																<article class="postPage">
+																	<div class="col-md-12 post_media">
+																		<div class="post-format-icon">
+																			<a href="#" class="item-date"><span class="fa fa-pencil"></span></a>
+																		</div>
+																	</div>
+																	<div class="title_content">
+																		<div class="text_content">博客文章</div>
+																		<div class="clear"></div>
+																	</div>
+																	<p class="caps">更多技术文章等待加入。</p>
+
+																	<p>更多技术文章等待加入。</p>
+
+																	<div class="col-md-12 first">
+																		<div class="info">
+																			<div>
+																				<span class="tag">#JavaScript</span>
+																				<span class="tag">#HTML/CSS</span>
+																			</div>
+																			<ul class="info-post">
+																				<li><i class="glyphicon glyphicon-comment"></i> 2 评论</li>
+																				<li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
+																				<li><i class="glyphicon glyphicon-user"></i> by Jane Doe</li>
+																				<li><i class="glyphicon glyphicon-tag"></i> JavaScript, HTML/CSS</li>
+																			</ul>
+																		</div>
+																		<div class="clear"></div>
+																		<div class="about_author">
+																			<div class="title_content" style="margin-bottom:10px">
+																				<div class="text_content">STEVE JOBS</div>
+																				<div class="clear"></div>
+																			</div>
+																			<div class="clear"></div>
+																			<div class="prg_content">
+																				<img src="http://placehold.it/100x100" width="100" height="100" alt="img">
+																				<div class="text">
+																					暂无评论。
+																				</div>
+
+																				<div class="nb_post" style="margin-top: 10px;">
+																					<b id="nb_post"> 15 帖子</b> 作者创建
+																				</div>
+																			</div>
+																			<div class="clear"></div>
+																		</div>
+																		<div class="clear"></div>
+																		<div class="post_comments">
+																			<div class="title_content">
+																				<div class="text_content">7 评论</div>
+																				<div class="clear"></div>
+																			</div>
+																			<div class="clear"></div>
+																			<div class="comments">
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="comment sub">
+																						<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																						<div class="text">
+																							<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																							<div class="date">12, September, 2013</div>
+																							暂无评论。
+																						</div>
+																						<div class="clear"></div>
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+																				<!-- .comments -->
+
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="comment sub">
+																						<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																						<div class="text">
+																							<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																							<div class="date">12, September, 2013</div>
+																							暂无评论。
+																						</div>
+																						<div class="clear"></div>
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+
+																				<!-- .comments -->
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="comment sub">
+																						<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																						<div class="text">
+																							<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																							<div class="date">12, September, 2013</div>
+																							暂无评论。
+																						</div>
+																						<div class="clear"></div>
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+
+																				<!-- .comments -->
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+																				<!-- .comments -->
+																			</div>
+
+																			<!-- .post_comments -->
+																			<div class="clear"></div>
+																			<div class="comment_form">
+																				<div class="title_content">
+																					<div class="text_content">你的评论</div>
+																					<div class="clear"></div>
+																				</div>
+																				<form method="post" id="comment_form">
+																					<p class="form-group" id="contact-name">
+																						<label for="name">姓名</label>
+																						<input type="text" name="name" class="form-control" id="inputSuccess" placeholder="姓名*...">
+																					</p>
+																					<p class="form-group" id="contact-email">
+																						<label for="email">你的 Email</label>
+																						<input type="text" name="email" class="form-control" id="inputSuccess" placeholder="你的 Email*...">
+																					</p>
+																					<p class="form-group" id="contact-message">
+																						<label for="message">内容</label>
+																						<textarea name="message" cols="88" rows="6" class="form-control" id="inputError" placeholder="内容..."></textarea>
+																					</p>
+																					<input type="reset" name="reset" value="清除" class="reset">
+																					<!--<input type="submit" name="submit" value="发表" class="submit">-->
+																					<button class="submit" data-toggle="modal" data-target=".bs-example-modal-sm">发表</button>
+																				</form>
+																				<div class="clear"></div>
+																			</div>
+																		</div>
+																		<div class="col-md-12"  style="margin-top: 20px;">
+																			<a href="#post-3" class="readmore" id="pagination"><i class="glyphicon glyphicon-chevron-right"></i></a>
+																			<a href="#post-1" class="readmore" id="pagination"><i class="glyphicon glyphicon-chevron-left"></i></a>
+																			<a href="#blog" class="readmore"><i class="glyphicon glyphicon-chevron-left"></i> 返回列表</a>
+																		</div>
+																		<div class="clear"></div>
+																</article>
+															</div>
+															<div class="clear"></div>
+														</div>
+													</section>
+													<!-- End Page Blog - Post 2 -->
+
+													<!-- Page Blog - Post 3 -->
+													<section id="post-3-page" class="content-post" style="display: none">
+														<div class="row inner">
+															<div class="col-md-12" style="width: 100%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;float: left;background: rgba(255, 255, 255, 0.8);padding-bottom: 15px;padding-top: 15px;">
+																<article class="postPage">
+																	<div class="col-md-12 post_media">
+																		<div class="post-format-icon">
+																			<a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
+																		</div>
+																		<div class="media">
+																			<div class="he-wrap tpl2">
+																				<img src="images/blog/blog-2.jpg" class="img-hover" alt="">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="title_content">
+																		<div class="text_content">博客图片</div>
+																		<div class="clear"></div>
+																	</div>
+																	<p class="caps">更多图片等待加入。</p>
+
+																	<p>更多图片等待加入。</p>
+																	<div class="col-md-12 first">
+																		<div class="info">
+																			<div>
+																				<span class="tag">#JavaScript</span>
+																				<span class="tag">#HTML/CSS</span>
+																			</div>
+																			<ul class="info-post">
+																				<li><i class="glyphicon glyphicon-comment"></i> 2 评论</li>
+																				<li><i class="glyphicon glyphicon-time"></i> January 31, 2014</li>
+																				<li><i class="glyphicon glyphicon-user"></i> by 管理员</li>
+																				<li><i class="glyphicon glyphicon-tag"></i> Photoshop</li>
+																			</ul>
+																		</div>
+																		<div class="clear"></div>
+																		<div class="about_author">
+																			<div class="title_content" style="margin-bottom:10px">
+																				<div class="text_content">STEVE JOBS</div>
+																				<div class="clear"></div>
+																			</div>
+																			<div class="clear"></div>
+																			<div class="prg_content">
+																				<img src="http://placehold.it/100x100" width="100" height="100" alt="img">
+																				<div class="text">
+																					暂无评论。
+																				</div>
+																				<div class="nb_post" style="margin-top: 10px;">
+																					<b id="nb_post"> 15 帖子</b> 作者创建
+																				</div>
+																			</div>
+																			<div class="clear"></div>
+																		</div>
+																		<div class="clear"></div>
+																		<div class="post_comments">
+																			<div class="title_content">
+																				<div class="text_content">7 Comments</div>
+																				<div class="clear"></div>
+																			</div>
+																			<div class="clear"></div>
+																			<div class="comments">
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="comment sub">
+																						<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																						<div class="text">
+																							<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																							<div class="date">12, September, 2013</div>
+																							暂无评论。
+																						</div>
+																						<div class="clear"></div>
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+																				<!-- .comments -->
+
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="comment sub">
+																						<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																						<div class="text">
+																							<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																							<div class="date">12, September, 2013</div>
+																							暂无评论。
+																						</div>
+																						<div class="clear"></div>
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+																				<!-- .comments -->
+
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="comment sub">
+																						<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																						<div class="text">
+																							<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																							<div class="date">12, September, 2013</div>
+																							暂无评论。
+																						</div>
+																						<div class="clear"></div>
+																					</div>
+																					<div class="clear"></div>
+																				</div>
+																				<!-- .comments -->
+																				<div class="comment">
+																					<img src="http://placehold.it/100x100" width="100" height="100" alt="img" />
+																					<div class="text">
+																						<div class="name">作者 <a class="reply" href="#">回复</a></div>
+																						<div class="date">12, September, 2013</div>
+																						暂无评论。
+																					</div>
+																					<div class="clear"></div>
+																				</div><!-- .comments -->
+																			</div><!-- .post_comments -->
+																			<div class="clear"></div>
+																			<div class="comment_form">
+																				<div class="title_content">
+																					<div class="text_content">你的评论</div>
+																					<div class="clear"></div>
+																				</div>
+																				<form method="post" id="comment_form">
+																					<p class="form-group" id="contact-name">
+																						<label for="name">姓名</label>
+																						<input type="text" name="name" class="form-control" id="inputSuccess" placeholder="姓名*...">
+																					</p>
+																					<p class="form-group" id="contact-email">
+																						<label for="email">你的 Email</label>
+																						<input type="text" name="email" class="form-control" id="inputSuccess" placeholder="你的 Email*...">
+																					</p>
+																					<p class="form-group" id="contact-message">
+																						<label for="message">内容</label>
+																						<textarea name="message" cols="88" rows="6" class="form-control" id="inputError" placeholder="内容..."></textarea>
+																					</p>
+																					<input type="reset" name="reset" value="清除" class="reset">
+																					<!--<input type="submit" name="submit" value="发表" class="submit">-->
+																					<button class="submit" data-toggle="modal" data-target=".bs-example-modal-sm">发表</button>
+																				</form>
+																				<div class="clear"></div>
+																			</div>
+																		</div>
+																		<div class="col-md-12" style="margin-top: 20px;">
+																			<a href="#" class="readmore disabled" id="pagination"><i class="glyphicon glyphicon-chevron-right"></i></a>
+																			<a href="#post-2" class="readmore" id="pagination"><i class="glyphicon glyphicon-chevron-left"></i></a>
+																			<a href="#blog" id="blog" class="readmore"><i class="glyphicon glyphicon-chevron-left"></i> 返回列表</a>
+																		</div>
+																		<div class="clear"></div>
+																</article>
+															</div>
+															<div class="clear"></div>
+														</div>
+													</section>
+													<!-- End Page Blog - Post 3 -->
+												</div>
+												<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+													<div class="modal-dialog modal-sm">
+														<div class="modal-content">
+															<div class="modal-header">
+																<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+																<h3 class="modal-title h3_modal" style="color: #fff !important;">提示</h3>
+															</div>
+															<div class="modal-body">
+																<p>非常抱歉，博客留言区由于服务器供应商的原因暂时不能使用。</p>
+																<p>为此给您带来的不便，请您谅解。</p>
+															</div>
+															<div class="modal-footer">
+																<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- End .我的博客 -->
+
+									<!-- .联系我 -->
+									<div id="contact" class="content_2">
+										<h1 class="h-bloc">联系 - 联系我</h1>
+										<div class="row">
+											<div class="col-lg-12">
+												<div id="map"></div>
+											</div>
+											<div class="col-lg-12">
+												<div class="row" id="contact-user">
+													<div class="col-md-5">
+														<!-- 联系信息 -->
+														<div class="contact-info">
+															<!-- <h3 class="main-heading"><span>Contact info</span></h3> -->
+															<div class="title_content" style="float: none;">
+																<div class="text_content">联系信息</div>
+																<div class="clear"></div>
+															</div>
+															<ul>
+																<li><span class="span-info"><i class="glyphicon glyphicon-map-marker"></i> Adress:</span> 北京 , 昌平区<br /></li>
+																<li><span class="span-info"><i class="glyphicon glyphicon-envelope"></i> Email:</span> vernvn@hotmail.com</li>
+																<li><span class="span-info"><i class="glyphicon glyphicon-phone"></i> Phone:</span> 13930306924</li>
+																<li><span class="span-info"><i class="glyphicon glyphicon-globe"></i> Website:</span> vernvn.github.io</li>
+															</ul>
+														</div>
+														<!-- End .联系信息 -->
+														<div class="clear"></div>
+														<!--<h3 class="main-heading" style="margin-left: 22px;"><span>Follow me</span></h3>-->
+														<div class="title_content tiltle_contacts" style="float: none;">
+															<div class="text_content">关注我</div>
+															<div class="clear"></div>
+														</div>
+															<div id="profile_social">
+																<a href="#"><i class="fa fa-facebook"></i></a>
+																<a href="#"><i class="fa fa-twitter"></i></a>
+																<a href="#"><i class="fa fa-linkedin"></i></a>
+																<a href="#"><i class="fa fa fa-dribbble"></i></a>
+																<a href="#"><i class="fa fa-foursquare"></i></a>
+																<div class="clear"></div>
+															</div>
+													</div>
+													<div class="col-md-7">
+														<!-- .联系方式表单 -->
+														<div class="title_content" style="float: none;">
+															<div class="text_content">让我们保持联系吧</div>
+															<div class="clear"></div>
+														</div>
+														<div class="contact-form">
+															<!--<h3 class="main-heading"><span>Let's keep in touch</span></h3>-->
+															<div id="contact-status"></div>
+															<form action="#" id="contactform">
+																<p class="form-group" id="contact-name">
+																	<label for="name">你的名字</label>
+																	<input type="text" name="name" class="form-control name-contact" id="inputSuccess" placeholder="你的名字..." />
+																</p>
+																<p class="form-group" id="contact-email">
+																	<label for="email">你的E-Mail</label>
+																	<input type="text" name="email" class="form-control email-contact" id="inputSuccess" placeholder="你的E-Mail..." />
+																</p>
+																<p class="form-group" id="contact-message">
+																	<label for="message">你的消息</label>
+																	<textarea name="message" cols="88" rows="6" class="form-control message-contact" id="inputError" placeholder="消息..."></textarea>
+																</p>
+																<input type="reset" name="reset" value="清除" class="reset">
+																<!-- <input type="submit" name="submit" value="SEND MESSAGE" class="submit">-->
+																<section class="button-demo" style="display: inline-block;">
+																	<button class="ladda-button submit send_email" name="submit" data-color="green" data-style="expand-left">发送消息</button>
+																</section>
+															</form>
+														</div>
+														<!-- End .联系方式表单 -->
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- End .联系我 -->
+								</div>
+								<!-- End #标签容器 -->
+							</div>
+							<!-- End 垂直选项卡菜单 -->
+						</div>
+						<!-- End flexy_内容 -->
+					</div>
+					<!-- End row -->
+				</div>
+				<!-- End col-md-12 -->
+			</div>
+			<!-- End row -->
+		</div>
+		<!-- End container -->
+	</section>
+	<!-- End Content -->
+</div>
+<!-- End wrapper -->
+
+<!-- #切换器 -->
+<!-- End #切换器 -->
+
+
+	<!-- jquery | jQuery 1.11.0 -->
+	<!-- Credits: http://jquery.com -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<!-- Js | bootstrap -->
+	<!-- Credits: http://getbootstrap.com/ -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<!-- Js | jquery.cycle -->
+	<!-- Credits: https://github.com/malsup/cycle2 -->
+	<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+
+	<!-- jquery | rotate and portfolio -->
+	<!-- Credits: http://jquery.com -->
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="js/HeadImage.js"></script>
+
+	<!-- Js | easyResponsiveTabs -->
+	<!-- Credits: http://webtrendset.com/demo/easy-responsive-tabs/Index.html -->
+	<script type="text/javascript" src="js/easyResponsiveTabs.min.js"></script>
+
+	<!-- Js | jquery.cookie -->
+	<!-- Credits: https://github.com/carhartl/jquery-cookie -->
+	<script type="text/javascript" src="js/jsSwitcher/jquery.cookie.js"></script>
+
+	<!-- Js | switcher -->
+	<!-- Credits: http://themeforest.net/user/FlexyCodes -->
+	<script type="text/javascript" src="js/jsSwitcher/switcher.js"></script>
+
+	<!-- Js | mCustomScrollbar -->
+	<!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
+	<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+	<!-- jquery | prettyPhoto -->
+	<!-- Credits: http://www.no-margin-for-errors.com/ -->
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+
+	<!-- Js | gmaps -->
+	<!-- Credits: http://maps.google.com/maps/api/js?sensor=true-->
+
+	<script type="text/javascript" src="js/gmaps.min.js"></script>
+
+		<!-- Js | Js -->
+	<!-- Credits: http://themeforest.net/user/FlexyCodes -->
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<!-- code js for image rotate -->
+	<script type="text/javascript">
+
+		var mouseX;
+		var mouseY;
+		var imageOne;
+
+		/* Calling the initialization function */
+		$(init);
+
+		/* The images need to re-initialize on load and on resize, or else the areas
+		 * where each image is displayed will be wrong. */
+		$(window).load(init);
+		$(window).resize(init);
+
+		/* Setting the mousemove event caller */
+		$(window).mousemove(getMousePosition);
+
+		/* This function is called on document ready, on load and on resize
+		 * and initiallizes all the images */
+		function init() {
+
+			/* Instanciate the mouse position variables */
+			mouseX = 0;
+			mouseY = 0;
+
+			/* Instanciate a HeadImage class for every image */
+			imageOne = new HeadImage("one");
+
+		}
+
+		/* This function is called on mouse move and gets the mouse position.
+		 * It also calls the HeadImage function to display the correct image*/
+		function getMousePosition(event) {
+
+			/* Setting the mouse position variables */
+			mouseX = event.pageX;
+			mouseY = event.pageY;
+
+			/*Calling the setImageDirection function of the HeadImage class
+			 * to display the correct image*/
+			imageOne.setImageDirection();
+
+		}
+
+	</script>
+
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</body>
+</html>
